@@ -1,0 +1,11 @@
+{
+  "name": "vuejs-app",
+  "version": "1.0.0",
+  "description": "Heroku App",
+  "author": "Konsyl",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express",
+    "beforebuid": "npm install connect-history-api-fallback"
+  }
+}
